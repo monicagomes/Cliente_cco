@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     public void buscarCliente(View view){
         Intent intent = new Intent(this, ListarClientesActivity.class);
         String texto = text.getText().toString();
-        intent.putExtra(CHAVE, texto);0
+        intent.putExtra(CHAVE, texto);
         startActivity(intent);
     }
 }
