@@ -9,7 +9,7 @@
    <EditText
        android:layout_width="0dp"
        android:layout_height="wrap_content"
-       android:layout_weight="1" <!--Se enquadra de acordo com o tamanho da palvra e cria o botão-->
+       android:layout_weight="1"
        android:hint="@string/nome_busca"
        android:id="@+id/buscar_clientes" />
 
